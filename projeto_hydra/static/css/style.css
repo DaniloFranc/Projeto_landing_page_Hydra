@@ -1,0 +1,214 @@
+
+
+body {
+    position: relative;
+width: 1440px;
+height: 1024px;
+
+background: #302C42;
+border-radius: 70px;
+}
+
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+  
+.cabecalho-imagem {
+    margin-left:10px;
+    
+  }
+
+.cabecalho-menu-item-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    margin-right: 42;
+    margin-left: 205px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    
+
+}
+.cabecalho-menu-item-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    margin-left: 41;
+    margin-right: 140px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+
+}
+.cabecalho-menu-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    margin-left: 41;
+    margin-right: 41;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+
+}
+.cabecalho-menu-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 30px;
+  }
+  
+  .cabecalho-menu-botao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    
+  }
+ 
+  
+  .imagem {
+    float: right;
+    width: 40%;
+    height: auto;
+    margin-left: 20px;
+  }
+  .container {
+    display: flex;
+    align-items: center; /* centraliza verticalmente */
+    margin-left: 84px;
+    
+  }
+ 
+
+  
+  .texto-1 {
+    background: linear-gradient(91.57deg, #C0B7E8 -1.02%, #8176AF 36.25%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 56px;
+    margin-right: 20px; /* ajuste de margem para o espaço entre o Dive e o Into */
+    margin-bottom: 1px;
+    
+    color: #C0B7E8;
+  }
+  
+  .texto-2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 56px;
+    color: #FFFFFF;
+    margin-left: 0; /* ajuste de margem para eliminar o espaço entre o Into e o resto do texto */
+    margin-bottom: 0;
+    
+  }
+  
+  
+  .texto {
+    width: 50%;
+    margin-right: 20px;
+    margin-left: 84px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+  }
+
+  .texto-3 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 56px;
+    color: #FFFFFF;
+    margin-left: 0; /* ajuste de margem para eliminar o espaço entre o Into e o resto do texto */
+    margin-top: 4px;
+    margin-bottom: 1;
+  }
+
+.texto-4{
+    background: linear-gradient(91.57deg, #C0B7E8 -1.02%, #8176AF 36.25%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 56px;
+    margin-left: 20px; /* ajuste de margem para o espaço entre o Dive e o Into */
+    color: #C0B7E8;
+    margin-top: 4px;}
+
+    
+.meu-botao {
+    background-color: #302C42;
+    border-radius: 300px;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    background-color: transparent;
+    padding: 10px 20px;
+    height: 48px;
+    width: 170px;
+    margin-right: 19px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.botao-2 {
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+    border-radius: 300px;
+    color: #343045;     
+    font-size: 16px;
+    margin: 4px 19px;
+    width: 80px;
+    height: 15px;
+    left: 1155px;
+    top: 46px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    
+    width: 155px;
+    height: 48px;
+    left: 1117px;
+    top: 29px;
+
+
+}
+
